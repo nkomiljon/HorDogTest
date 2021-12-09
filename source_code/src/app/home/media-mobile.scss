@@ -1,0 +1,334 @@
+@import './scss/general';
+
+
+@media (max-width: 425px) {
+    .logo,
+    .menu-icons,
+    .banner {
+        display: none;
+    }
+
+
+    .mobile-logo
+    {
+        display: block;
+        padding: 12px 4px;
+        flex: 0 0 24%;
+    }
+    .mobile-logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .burger {
+        display: block;
+        flex: 0 0 17%;
+        padding: 25px 4px 25px 30px;
+        &__btn {
+            width: 24px;
+            height: 24px;
+            padding: 3px;
+            background-color: transparent;
+            & span:nth-child(1) {
+                width: 20px;
+                height: 2px;
+                display: block;
+                margin-bottom: 3px;
+                background-color: #000;
+            }
+            & span:nth-child(2) {
+                width: 16px;
+                height: 2px;
+                display: block;
+                margin-bottom: 3px;
+                background-color: #000;
+            }
+            & span:nth-child(3) {
+                width: 12px;
+                height: 2px;
+                display: block;
+                margin-bottom: 3px;
+                background-color: #000;
+            }
+        }
+       
+        
+    }
+
+    .header {
+        overflow-x: hidden;
+        &__inner {
+            padding-bottom: 100px;
+        }
+    }
+
+    .navbar {
+        &__inner {
+            max-height: 72px;
+            padding: 0;
+            flex-flow: row nowrap;
+        }
+    }
+
+
+    .description {
+        &__inner {
+            padding: 15px 0;
+        }
+        &-text {
+            flex: 1 0 45%;
+        }
+        &-img {
+            &__inner {
+                padding: 0 0 0 62px;
+            }
+        }
+    }
+
+    .search {
+        width: 100%;
+        min-width: 168px;
+        &-icon {
+            left: 70%;
+        }
+    }
+
+    .menu {
+        width: 92%;
+        position: absolute;
+        padding: 24px 16px;
+        &-box {
+            width: 92px;
+            height: 92px;
+            &__img {
+                width: 46px;
+                height: 46px;
+                margin: 6px 23px 0 23px;
+            }
+            &__img img {
+                padding: 0 4px;
+            }
+            &__text {
+                width: 100%;
+                text-align: center;
+                margin: 14px auto 6px auto;
+
+            }
+        }
+        &-list__item:nth-child(4) {
+            margin-top: 25px;
+        }
+        &-list__item:nth-child(5) {
+            margin-top: 25px;
+        }    
+        &-list__item:nth-child(6) {
+            margin-top: 25px;
+        }
+    }
+
+
+    .main {
+        margin-top: 180px;
+    }
+    
+    .banner-mobile {
+        display: block;
+        margin: 20px 0;
+        &__img {
+            width: 100%;
+        }
+    }
+
+    .product {
+        &__top {
+            &-option {
+                display: none;
+            }
+        }
+        &__list {
+            overflow-x: auto;
+        }
+        &-mb {
+            margin-bottom: 15px;
+        }
+        &__reclam-list {
+            overflow-x: auto;
+        }
+        &__news-list {
+            overflow-x: auto;
+        }
+        &__review-list {
+            overflow-x: auto;
+        }
+    }
+
+    .card {
+        margin: 0 6px;
+        &__img {
+            margin-bottom: 0px;
+        }
+        min-width: 187px;
+        min-height: 298px;
+        &__description {
+            margin-bottom: 19px;
+            min-width: 200px;
+            &-price {
+                margin-bottom: 2px;
+            }
+        }
+
+        &-reclam {
+            min-width: 236px;
+            min-height: 300px;
+            margin-right: 16px;
+            overflow-y: hidden;
+            &__img {
+                padding: 0;
+            }
+        }
+
+        &-news {
+            min-width: 236px;
+            min-height: 196px;
+            margin-right: 16px;
+            margin-top: 14px;
+            padding: 0;
+            overflow-y: hidden;
+            
+        }
+
+        &-review {
+            min-width: 236px;
+            min-height: 498px;
+            &__bottom {
+                margin: 24px 0;
+            }
+        }
+
+        &-small {
+            min-width: 185px;
+            min-height: 238px;
+        }
+    }
+
+
+    .top {
+        &-img img {
+            width: 80px;
+            height: 80px;
+            margin: 15px 0;
+        }
+    }
+
+    .separator {
+        margin: 4px 0;
+    }
+
+
+
+    .footer {
+        margin: 0;
+        &__inner {
+            padding-bottom: 60px;
+        }
+        &-bottom {
+            display: none;
+        }
+        &-top {
+            &-description {
+                max-width: 100%;
+            }
+
+            &__img {
+                width: 100%;
+                padding: 0;
+            }
+            &__form {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .form-text {
+        max-width: 100%;
+    }
+
+    .top-title {
+        width: 72%;
+        margin-top: 30px;
+    }
+
+
+    .mobile-social {
+        width: 100%;
+        height: 100%;
+        min-height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        &-icons {
+            width: 60%;
+            margin: 12px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+
+    .mobile-menu {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 8px 16px;
+        position: fixed;
+        background: $yellow;
+        box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04), 0px -4px 8px rgba(96, 97, 112, 0.16);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        &__list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        &__babl {
+            padding: 1px 6px;
+            content: '';
+            position: absolute;
+            background: #01A54E;
+            border: 2px solid #FED700;
+            border-radius: 20px;
+            top: -6px;
+            left: 19px;
+        }
+    }
+
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .menu-item img {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .main {
+        margin-top: 305px;
+    }
+    .menu {
+        width: 90%;
+    }
+}

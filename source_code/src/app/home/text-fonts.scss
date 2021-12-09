@@ -1,0 +1,375 @@
+@import './scss/general';
+
+
+
+.title-mb {
+    margin-bottom: 20px;
+}
+
+.subtitle-mb {
+    margin-bottom: 35px;
+}
+
+.img-mb {
+    margin-bottom: 15px;
+}
+
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-white {
+   background-color: $white;
+}
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.text-red {
+    color: $red!important;
+}
+
+.text-white {
+    color: $white!important;
+}
+
+.text-transparent {
+    color: transparent!important;
+}
+
+.bg-none {
+    display: none!important;
+}
+
+
+
+
+.title {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold-black;
+    font-size: 48px;
+    line-height: 52px;
+    color: $black;
+}
+
+.subtitle {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $light;
+    font-size: 24px;
+    line-height: 28px;
+    color: $black;
+}
+
+.search-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 16px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.menu-list__link {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: $black;
+}
+
+.heading-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: $black;
+}
+
+.badge-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white;
+}
+
+.price-old {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+}
+
+.price {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.quantity {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+
+.description {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+
+.button-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+
+.reclam-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.news-date {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+.news-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+.top-description__text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+
+}
+
+.review-btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+}
+
+.user-name-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $extra-bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+
+}
+
+.review-date-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.nick-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 12px;
+    line-height: 14px;
+    color: $grey;
+}
+
+.review-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 13px;
+    line-height: 20px;
+    color: $black;
+}
+
+.footer-title {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold-black;
+    font-size: 40px;
+    line-height: 46px;
+    color: $black;
+
+}
+
+.footer-subtitle {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $light;
+    font-size: 20px;
+    line-height: 24px;
+    color: $black;
+}
+
+.form-text-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.form-btn-font {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+}
+
+.logo-text {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 9px;
+    line-height: 12px;
+    color: $black;
+}
+
+.list-link {
+    font-family: $nunito;
+    font-style: normal;
+    font-weight: $semi-bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+    opacity: 0.6;
+}
+
+.social {
+    &-title {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: $black;
+    }
+    &-tel {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $extra-bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: $black;
+    }
+    &-email {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $regular;
+        font-size: 14px;
+        line-height: 20px;
+        color: $black;
+    }
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 38px;
+        line-height: 40px;
+        &-mb {
+            margin-bottom: 8px;
+        }
+    }
+    .subtitle {
+        font-size: 19px;
+        line-height: 24px;
+        &-mb {
+            margin-bottom: 32px;
+        }
+    }
+
+
+    .menu-list__link {
+        font-size: 14px;
+    }
+
+
+    .heading-font {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top-description__text {
+        font-size: 16px;
+        height: 40px;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+
+    .footer-title {
+        font-size: 31px;
+        line-height: 36px;
+    }
+    .footer-subtitle {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .mobile-menu__link {
+        font-family: $nunito;
+        font-style: normal;
+        font-weight: $semi-bold;
+        font-size: 9px;
+        line-height: 12px;
+        text-align: center;
+        color: $black;
+    }
+}
